@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css"rel="stylesheet">
+    <!-- myCSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="myCSS/style.css">
+    <link rel="stylesheet" href="myCSS/font.css">
+
+    <title>LMS|MSI</title>
+  </head>
+  <body id="bootsrap-overide">
+    <!-- Nav Bar -->
+    <header class="sticky-top">
+        <nav class="my-navbar">
+            <a href="#" class="logo-nav f-logo">
+                <img src="Asset/Logo SMK7Mataram.jpg" height="64px" width="62px">SMKN 7 MATARAM
+            </a>
+            <ul class="menu-nav f-logo">
+                <list class="item-menu">
+                    <a href="#" class="nav-link ">Beranda</a>
+                </list>
+                <list class="item-menu">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                        <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
+                        <li><a class="dropdown-item" href="#">Fasilitas Kampus</a></li>
+                      </ul>
+                </list>
+                <list class="item-menu">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Program Keahlian</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Perbankan Syariah</a></li>
+                        <li><a class="dropdown-item" href="#">Multimedia</a></li>
+                        <li><a class="dropdown-item" href="#">Perbankan dan Keuangan Mikro</a></li>
+                        <li><a class="dropdown-item" href="#">Bisnis Daring Pemasaran</a></li>
+                        <li><a class="dropdown-item" href="#">Tata Busana</a></li>
+                        <li><a class="dropdown-item" href="#">Administrasi dan Keuangan Lembaga</a></li>
+                        <li><a class="dropdown-item" href="#">Otomatisasi Tata Kelola Perkantoran</a></li>
+                        <li><a class="dropdown-item" href="#">Manajemen Logistik</a></li>
+                    </ul>
+                </list>
+                <list class="item-menu">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Siswa</a></li>
+                        <li><a class="dropdown-item" href="#">Guru</a></li>
+                    </ul>
+                </list>
+                <list class="item-menu">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Galery</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Vidio</a></li>
+                        <li><a class="dropdown-item" href="#">Gambar</a></li>
+                    </ul>
+                </list>
+                <button class="login btn  btn-outline-dark btn-sm">Log in</button>
+                <button class="register btn btn-outline-dark btn-sm">Register</button>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- ENDNav Bar -->
+   <!-- Side Bar -->
+   <aside class="sidebar">
+        <div class="profile">
+            <a href="#"><img src="Asset/20010200231.png" height="80em"></a>
+            <div class="nama-nim">
+            <a href="#">
+              <h5>Prisma Aditya S</h5>
+              <h6>2001020023</h6></a>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="#konten1" class="menu-item">Data Guru</a>
+            <a href="#konten2" class="menu-item">Data Siswa</a>
+            <a href="#konten3" class="menu-item">Data Kelas</a>
+            <a href="#konten4" class="menu-item">Data Jurusan</a>
+    </nav>
+    </aside>
+    <!-- konten -->
+    <main id="konten1">
+        <h1>Data Guru SMKN 7 MATARAM</h1>
+        <hr>
+        <table class="table table-bordered border-dark">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Jenis Kelamin</th>
+                <th scope="col">NIP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="A-chart">
+            <div class="chart1">
+                <canvas id="chart-data-guru2"></canvas>
+              </div>
+              <div class="chart1">
+                <canvas id="chart-data-guru"></canvas>
+              </div>
+          </div>
+    </main>
+    <main id="konten2">
+        <h1>Data Siswa SMKN 7 MATARAM</h1>
+        <hr>
+        <table class="table table-bordered border-dark">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Jenis Kelamin</th>
+                <th scope="col">NISN</th>
+                <th scope="col">Jurusan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="B-chart">
+                <div class="chart2">
+                    <canvas id="chart-data-siswaX"></canvas>
+                </div>
+                <div class="chart2">
+                    <canvas id="chart-data-siswaXI"></canvas>
+                </div>
+                <div class="chart2">
+                    <canvas id="chart-data-siswaXII"></canvas>
+                </div>
+          </div>
+    </main>
+    <main id="konten3">
+        <h1>Data Kelas SMKN 7 MATARAM</h1>
+        <hr>
+        <table class="table table-bordered border-dark">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Kode Kelas</th>
+                <th scope="col">Nama Kelas</th>
+                <th scope="col">Jurusan</th>
+                <th scope="col">Wali Kelas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+    </main>
+    <main id="konten4">
+        <h1>Data Jurusan SMKN 7 MATARAM</h1>
+        <hr>
+        <table class="table table-bordered border-dark">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">ID Jurusan</th>
+                <th scope="col">Nama Jurusan</th>
+                <th scope="col">Akreditasi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+            </tbody>
+          </table>
+    </main>
+    <!-- Footer -->
+    <main class="footer">
+        <div class="foter-1 .f-logo">
+            HUBUNGI KAMI
+            <hr class="white">
+        
+        <div class="contack-us">
+            <h5><a href="#" class="link-kontak"><img src="Asset/envelope.svg" alt="logo-mail"> smkn7mataram@yahoo.co.id</a></h5>
+            <h5><a href="#" class="link-kontak"><img src="Asset/telephone.svg" alt="logo-telepone">smkn7mataram@yahoo.co.id</a></h5>
+            <div class="contackus-logo">
+                <a href="#" class="link-kontak btn btn-outline-dark btn-sm"><img src="Asset/youtube.svg" alt="logo-youtube"></a>
+                <a href="#" class="link-kontak btn btn-outline-dark btn-sm"><img src="Asset/instagram.svg" alt="logo-instagram"></a>
+                <a href="#" class="link-kontak btn btn-outline-light btn-sm"><img src="Asset/twitter.svg" alt="logo-twiter"></a>
+                <a href="#" class="link-kontak btn btn-outline-light btn-sm"><img src="Asset/facebook.svg" alt="logo-facebook"></a>
+            </div>
+        </div>
+    </div>
+        <div class="footer-2 .f-logo">
+            KELOMPOK
+            <hr class="white">
+            <div class="nama-kelompok">
+                <h3>XXX</h3>
+                <h3>XXX</h3>
+                <h3>XXX</h3>
+            </div>
+        </div>
+    </main>
+    <!-- chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="MyJS/chartGuru.js"></script>
+    <script src="MyJS/chart_siswa kelasX.js"></script>
+      
+   <!-- BootstrapJS -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- MyJS -->
+    <script src="MyJS/script.js"></script>
+  </body>
+</html>
